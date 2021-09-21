@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Crea tu cuenta</title>
+    <meta http-equiv="X - UA - Compatible" contect="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+</head>
+
+<header> 
+    <div class="logo">
+          <img src="images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+    </div>
+    <div class="buscador">
+          <p><input type="search"><i class="fas fa-search"></i></p>
+    </div>
+    <div class="hand-holding">
+         <p class="center"><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjetas de credito</p>
+    </div>
+
+<nav class="nav-bar">
+    <ul>
+        <li><a href="#" style="color:black" class="sub">Ofertas</a></li>
+        <li><a href="#" style="color:black" class="sub">Tiendas Oficiales</a></li>
+        <li><a href="#" style="color:black" class="sub">Vender</a></li>
+        <li><a href="#" style="color:black" class="sub">Ayuda</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="./register" style="color:black" class="sub">Crea tu cuenta</a><i class="far fa-id-card"></i></li>
+        <li><a href="./login" style="color:black" class="sub">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+        <li><a href="#" style="color:black" class="sub">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+    </ul>
+</nav>
+    <div class="burger-menu" >
+        <i class="fas fa-bars"></i>
+        </div>
+</header>
+
+<body class="cajaRegistro">
+    <form action="/" method="GET">
+
+        <div class="registros">
+            <label for="nombre_apellido">
+            <input type="text"  placeholder="Nombre y Apellido" name="nombre_apellido"required>
+        </label>
+        </div>
+        <div class="registros">
+            <label for="usuario">
+            <input type="text" placeholder="Usuario" name="usuario"required>
+        </label>
+        </div>
+        <div class="registros">
+            <label for="nacimiento">
+            <input type="date" placeholder="Fecha de nacimiento" name="nacimiento">
+        </label>
+        </div>
+        <div class="registros">
+            <label name="domicilio">
+            <input type="text" placeholder="Domicilio" name="domicilio"> 
+        </label>
+        </div>
+        <div class="registros">
+            <label for="perfil">Perfil De Usuario
+            <input type="radio" name="perfil" value="Comprador">Comprador</input>
+            <input type="radio" name="perfil" value="Vendedor">Vendedor</input>
+        </div>
+        </label>
+               <div class="registros"><label name="interes">Categoria De interes
+               <input type="checkbox" name="interes" value="Electro">Electro</input>
+               <input type="checkbox" name="interes" value="Moda">Moda</input>
+               <input type="checkbox" name="interes" value="Hogar">Hogar</input>
+               <input type="checkbox" name="interes" value="Jugueteria">Jugueteria</input>
+               <input type="checkbox" name="interes" value="Vida sana">Vida sana</input>
+                </div>  
+           </label>
+           <div class="registros">
+               <label for="foto-usuario">Foto Del Usuario
+               <input type="file" name="foto-usuario" accept=".jpg">
+           </label>
+        </div>
+        <div class="registros">
+           <label for="password">
+           <input type="password" placeholder="Contaseña" name="password" id="password" required>
+            </label>
+        </div>
+        <div class="registros">
+            <label for="password">
+            <input type="password" placeholder="Confirmar contraseña" name="password" id="password" required>
+            </label>
+        </div>
+        <div>
+            <form name="form1"  target="_blank" method="post">
+              <input type="submit" value="Enviar" class="enviar">
+            </form>
+            </div>
+            <div>
+                <form name="form1"  target="_blank" method="post">
+                  <input type="reset" value="Cancelar" class="cancelar">
+                </form>
+              </div>
+    </body>
+    </html>
+    
+    </html>
+

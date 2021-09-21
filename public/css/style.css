@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ 
+/* header inicio */
+
+header {
+  background-color: #eac926;
+}
+header p {
+  margin-top: 10px;
+}
+header nav {
+  font-size: 12px;
+  margin-top: 10px;
+  display: none;
+}
+header ul {
+  margin-top: 10px;
+}
+header ul li {
+  list-style-type: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.mainheader2{
+  display: flex;
+}
+.logo{
+  width: 360px;
+}
+.buscador{
+  width: 50%;
+}
+main img {
+  width: 100%;
+}
+.burger-menu {
+  text-align: center;
+}
+.burger-menu i {
+  background-color: #1259c3;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+}
+
+
+.mano-peso{
+    padding: 150px;
+}
+
+
+
+/* header fin */
+
+html {
+    display: block;
+}
+
+
+
+
+article {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+p {
+    font-size: 12px;
+}
+
+main section article :hover.fa-truck{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  transform: rotate(-90deg);
+  transition-duration: 5s;
+}
+
+
+
+
+.imagen {
+    font-size: 30px;
+}
+
+
+.burger-menu i{
+    color: white;
+    background-color: #1259c3;
+    font-size:20px;
+    margin:10px 0px 20px 0px;
+    border-radius:5px;
+    padding:10px    
+}
+
+
+.burger-menu{
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 12px;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+}
+
+.tamaño {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.tamañoPrecios {
+    font-size: 16px;
+    font-family: Roboto;
+    width: 30%;
+    text-align: left;
+}
+
+.tamañoDesc {
+    font-size:16px;
+    text-align: left;
+    color: #39b54a;
+    margin-top: 5px;
+    display: inline-block;
+    width: 70%;
+
+}
+
+.articulo img {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.descripcion {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    display: none;
+}
+
+h3 {
+    
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition: box-shadow, 0.2s
+  }
+  main section article:hover .descripcion{
+    display:block
+  }
+
+
+.alinFot {
+    text-align: center;
+
+}
+
+.tarjeta{
+    align-items: center;
+    font-size: 28px;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: center;
+}
+
+.regalo{
+    align-items: center;
+    font-size: 28px;
+    color:blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: center;
+}
+
+.userIcon{
+    font-size: 28px;
+    color:blue;;
+    
+}
+
+/*Footer */
+
+footer{
+    text-align: center;
+    display: block;
+    background-color: #ebebeb;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 10px;
+}
+
+footer h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* finish footer */
+
+
+/* main inicio*/
+
+main{
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+main section{
+    margin: auto;
+    width: 90%;
+}
+
+main section article {
+    margin-top: 10px;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position:absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition: box-shadow, 0.2s
+}
+  main section article:hover .descripcion{
+    display:block
+}
+
+main img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* main final */
+
+
+
+
+
+.foto {
+    border-bottom: solid #ebebeb 1px;
+}
+
+.articulo {
+    margin: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 10px;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+}
+
+.interiorArticulo {
+    border-top: 1px solid #ebebed;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 10px;
+    position: relative;
+}
+
+
+.fa-truck{
+    margin:5px;
+    color: green;
+}
+
+.bannerImg {
+    width: 100%;
+}
+
+
+
+
+/* registro inicio */
+
+.cajaRegistro {
+    background-color: #C1BFBF;
+}
+
+.registros{
+    padding: 5px;
+    margin-top: 20px;
+    border: 4px solid #ebebeb;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    flex-direction: column;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 40%;
+    position: relative;
+    left: 25%;
+} 
+
+
+.registros:hover{
+    box-shadow: 0px 0px 10px #1900ff;
+    transition: box-shadow , 0.2s;
+}
+.registros label{
+    display: flex;
+    border-radius:15px;
+}
+.registros input{
+    display: flex;
+    width: 100%;
+    border:none;
+    outline:none;
+    background: none;
+   
+}
+
+
+
+.cancelar{
+
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.cancelar:hover{
+    box-shadow: 0px 0px 10px#c8e716;
+}
+
+
+
+
+/* registro final*/
+
+
+/* login inicio */
+.login-form{
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 5% 15% 5% 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+.loginMain{
+    margin-bottom: 35px;
+    align-items: center;
+}
+.loginMain label{
+    display: flex;
+}
+.loginMain input{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+/* login finañ */
+
+/* boton envia y cancelar  inicio*/
+.enviar{
+ font-family:'Roboto', sans-serif;
+ font-weight:bold;
+ color:white;
+ background:#638cb5;
+ font-size: 16px;
+ border:0px;
+ width:80px;
+ height:24px;
+ margin: 20px;
+ position: relative;
+ left: 45%;
+}
+
+.enviar:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+.cancelar{
+  font-family:'Roboto', sans-serif;
+  font-weight:bold;
+  color:white;
+  background:#638cb5;
+  font-size: 16px;
+  border:0px;
+  width:80px;
+  height:24px;
+  margin: 20px;
+  position: relative;
+  left: 45%;
+}
+
+.cancelar:hover{
+  box-shadow: 0px 0px 10px#c8e716;
+}
+
+/* boton envia y cancelar  final*/
+
+
+@media (min-width: 361px) {
+  section div.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .precio, .descuento{
+    width: 50%;
+  }
+  header nav {
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .productos article{
+    width: 45%;
+}
+}
+
+@media (min-width: 481px){
+  .mainheader{
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo{
+    width: 33vw;
+  }
+  .buscador{
+    float: left;
+  }
+  .cuotas{
+    width: 33vw;
+  }
+  .listas-main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .ul1{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .ul2{
+    display: flex;
+    justify-content: flex-end;
+  }
+  li{
+    padding: 5px
+  }
+}
+  @media (min-width: 769px){
+    main section article.articulo {
+        width: 22%;
+    }
+    .tamañoDesc{
+        width: 40%;
+        margin-left: 15px;
+    }
+}
+  
